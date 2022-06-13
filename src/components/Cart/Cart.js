@@ -3,7 +3,7 @@
 /* eslint-disable react/button-has-type */
 import PropTypes from 'prop-types';
 import { useState, useEffect } from 'react';
-import './cart.css';
+import './cart.scss';
 
 function Cart({ cart, updateCart }) {
   const [isOpen, setIsOpen] = useState(true);

@@ -1,7 +1,7 @@
 /* eslint-disable no-alert */
 /* eslint-disable import/no-unresolved */
 import { useState } from 'react';
-import './footer.css';
+import './footer.scss';
 
 function Footer() {
   const [inputValue, setInputValue] = useState('');

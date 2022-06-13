@@ -6,6 +6,9 @@ import Cart from '../Cart/Cart';
 import Footer from '../Footer/Footer';
 import ShoppingList from '../ShoppingList/ShoppingList';
 
+import './styles.scss';
+import '../../styles/index.scss';
+
 function App() {
   const [cart, updateCart] = useState([]);
 

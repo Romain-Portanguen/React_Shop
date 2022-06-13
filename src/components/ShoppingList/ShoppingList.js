@@ -2,7 +2,7 @@
 import PropTypes from 'prop-types';
 import { plantList } from '../../data/plantList';
 import PlantItem from '../PlantItem/PlantItem';
-import './shoppingList.css';
+import './shoppingList.scss';
 
 function ShoppingList({ cart, updateCart }) {
   function addToCart(name, price) {
